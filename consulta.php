@@ -5,10 +5,11 @@
   <title>Controle de Chamado</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="estilo-consulta.css">
+  <link rel="stylesheet" type="text/css" href="header-style.css">
 </head>
 
 <body background-color="gray" align=center class="root">
-  <div width=80% class="lista" align=center>
+  <div class="lista" align=center>
     <?php 
         include('header.php')
       ?>
