@@ -14,7 +14,7 @@
 
   if($query) {
     phpAlert("Salvo com sucesso");
-    header("Location: formulario-cadastro.php");
+    header("Location: atendimento.php");
   }
 
   else {
