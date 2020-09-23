@@ -47,7 +47,13 @@
               <?php if ($result["registro"] != '') echo (new DateTime($result["registro"]))->format('d/m/Y H:i:s'); ?>
             </td>
             <td>
-              <?php if ($result["atendimento"] != '') echo (new DateTime($result["atendimento"]))->format('d/m/Y H:i:s'); ?>
+              <?php 
+                if ($result["atendimento"] != '' && $result["atendimento"] != "0000-00-00 00:00:00"){
+                  echo (new DateTime($result["atendimento"]))->format('d/m/Y H:i:s'); 
+                } else {
+                  echo "-";
+                }
+              ?>
             </td>
             <td><?= $result["status"]; ?></td>
             <td>
