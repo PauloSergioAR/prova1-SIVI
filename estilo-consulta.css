@@ -1,0 +1,33 @@
+.lista{
+  width: 800px;
+  padding: 30px;
+  border:1px solid #ccc;
+  background-color: white;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  border: 2px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+.titulo {
+  background-color: blue;
+}
+
+.titulo > td {
+  color: aliceblue;
+}
